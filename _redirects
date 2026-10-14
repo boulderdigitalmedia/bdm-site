@@ -1,0 +1,10 @@
+# Old Yola URLs -> new clean URLs (permanent, keeps SEO)
+/Website-Design-And-Development.php  /website-design/     301!
+/Digital-Marketing.php               /digital-marketing/  301!
+/Media-Production.php                /media-production/   301!
+/graphic-design.php                  /graphic-design/     301!
+/contact.php                         /contact/            301!
+/index.php                           /                    301!
+
+# Shopify app listing links here — serve it in place (no redirect hop)
+/Privacy-Policy.php                  /privacy-policy/     200!
