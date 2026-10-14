@@ -61,7 +61,10 @@ get "$G/screen_shot_20191230_at_4.33.12_pm.png"               graphic-design/web
 get "$G/screenshot20141009at9.00.31am.png"                    graphic-design/web-design-sample-3.png
 get "$G/yogabra_comfyyogastyle_300x600_v2.jpg"                graphic-design/yoga-bra-display-ad.jpg
 
-# Favicon (Yola default location; replace with your own if this fails)
-get "https://www.boulderdigitalmedia.com/favicon.ico"         favicon.ico
+# Background photos (hero + "Boulder approach" section)
+get "https://www.boulderdigitalmedia.com/resources/HomepageSlider.jpg"            backgrounds/home-hero.jpg
+get "https://www.boulderdigitalmedia.com/resources/FooterImage.jpg"               backgrounds/about.jpg
+get "https://www.boulderdigitalmedia.com/resources/shutterstock_1135079063.jpg"   backgrounds/contact-hero.jpg
+get "https://assets.yolacdn.net/template_assets/trinity/resources/771a52d3-trinity_img_02.jpg" backgrounds/services-hero.jpg
 
-[ $fail -eq 0 ] && echo "All images downloaded." || echo "Some images failed — save those manually into images/."
+[ $fail -eq 0 ] && echo "All 46 images downloaded." || echo "Some images failed — save those manually into images/."
